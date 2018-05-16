@@ -1,9 +1,10 @@
-/**************************************************************/
-/******************    Custom Stylesheet    *******************/
-/*******************   by Corey Sizemore   ********************/
-/*******************     version 1.0       ********************/
-/**************************************************************/
+/* color variables */
 
+$colorone: #3e984c;
+$colortwo: #a1bb5a;
+$colorthree: #333333;
+
+/* end color variables */
 
 header.home_default_image {
 	background: url('../img/home.jpg') no-repeat;
@@ -33,10 +34,22 @@ header.home_default_image {
 
 .content {
 	
+	h1 {
+		color: $colorone;
+	}
+	
 	a.button:link, 
 	a.button:visited {
+		background: $colorone;
 		margin-right: 20px;
 		margin-bottom: 10px;
+	}
+}
+
+.edit_button {
+	a:link,
+	a:visited {
+		background: $colorone;
 	}
 }
 
